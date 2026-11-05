@@ -23,6 +23,7 @@ export function Brand({
         "block w-auto",
         compact ? "h-9" : "h-9 sm:h-10",
         tone === "onBrand" ? "text-white" : "text-ink",
+        tone === "onBrand" && "drop-shadow-[0_1px_3px_rgba(7,21,44,0.28)]",
         className,
       )}
     />
